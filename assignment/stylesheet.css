@@ -16,3 +16,38 @@ main {
   background-color: #d3d3d3;
   padding: 1em;
 }
+/*
+p:hover {
+  color: rebeccapurple;
+  font-weight: 500;
+}
+input:required {
+  border: 3px solid #33;
+}
+input:optional {
+  margin: 2rem;
+}
+input:checked {
+  margin: 4rem;
+}
+p:last-of-type {
+  font-size: 2rem;
+}
+br:empty {
+  line-height: 4rem;
+} */
+
+p::selection {
+  background-color: yellow;
+  color: red;
+}
+p::first-letter {
+  font-size: 3rem;
+}
+p::first-line {
+  color: blue;
+}
+p::after {
+  content: "😀";
+  padding-left: 1rem;
+}
