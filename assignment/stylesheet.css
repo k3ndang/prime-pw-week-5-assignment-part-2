@@ -1,4 +1,18 @@
 header {
   background-color: hsl(50, 33%, 25%);
   color:  white;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-image:
+    linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("record.png");
+  background-repeat: round;
+}
+
+main {
+  background-color: #d3d3d3;
+  padding: 1em;
 }
