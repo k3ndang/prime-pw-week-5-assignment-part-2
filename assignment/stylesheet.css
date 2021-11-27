@@ -16,7 +16,7 @@ main {
   background-color: #d3d3d3;
   padding: 1em;
 }
-/*
+
 p:hover {
   color: rebeccapurple;
   font-weight: 500;
@@ -35,8 +35,9 @@ p:last-of-type {
 }
 br:empty {
   line-height: 4rem;
-} */
+}
 
+/*
 p::selection {
   background-color: yellow;
   color: red;
@@ -51,3 +52,4 @@ p::after {
   content: "😀";
   padding-left: 1rem;
 }
+*/
